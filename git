@@ -1,0 +1,14 @@
+warning: in the working copy of 'frontend/index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/frontend/index.html b/frontend/index.html[m
+[1mindex feaf27c..9dfa34b 100644[m
+[1m--- a/frontend/index.html[m
+[1m+++ b/frontend/index.html[m
+[36m@@ -4,7 +4,7 @@[m
+     <meta charset="UTF-8" />[m
+     <link rel="icon" type="image/svg+xml" href="/vite.svg" />[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[31m-    <title>Vite + Svelte</title>[m
+[32m+[m[32m    <title>파이보</title>[m
+   </head>[m
+   <body>[m
+     <div id="app"></div>[m
