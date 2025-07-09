@@ -6,7 +6,11 @@ from database import get_db
 from domain.question import question_schema, question_crud
 from domain.user.user_router import get_current_user
 from models import User
+from starlette.config import Config
 
+config = Config(".env")
+ACCESS_TOKEN_EXPIRE_MINUTES = int(config('ACCESS_TOKEN_EXPIRE_MINUTES'))
+SECRET_KEY = config('SECRET_KEY')
 router = APIRouter(
     prefix="/api/question",
 )

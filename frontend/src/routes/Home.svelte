@@ -22,10 +22,13 @@
             question_list = json.question_list
             total = json.total
             kw = $keyword
+	    console.log(json)
         })
     }
 
     $: $page, $keyword, get_question_list()
+
+
 </script>
 
 <div class = "container my-3">
