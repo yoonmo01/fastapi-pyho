@@ -411,3 +411,7 @@
 206.168.34.69 - - [09/Jul/2025:14:46:41 +0900] "GET / HTTP/1.1" 502 166 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
 206.168.34.69 - - [09/Jul/2025:14:47:07 +0900] "GET /robots.txt HTTP/1.1" 502 166 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
 185.218.84.47 - - [09/Jul/2025:14:58:52 +0900] "GET / HTTP/1.1" 502 166 "-" "curl/7.81.0"
+198.105.122.244 - - [09/Jul/2025:15:04:24 +0900] "GET /.env HTTP/1.1" 502 568 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+198.105.122.244 - - [09/Jul/2025:15:04:25 +0900] "POST / HTTP/1.1" 502 568 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+167.94.138.195 - - [09/Jul/2025:15:27:26 +0900] "GET / HTTP/1.1" 502 166 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+167.94.138.195 - - [09/Jul/2025:15:27:50 +0900] "GET /login HTTP/1.1" 502 166 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
