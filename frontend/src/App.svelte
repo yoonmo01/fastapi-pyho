@@ -18,6 +18,7 @@
     '/question-modify/:question_id': QuestionModify,
     '/answer-modify/:answer_id': AnswerModify
   }
+
 </script>
 
 <Navigation />
